@@ -15,7 +15,7 @@ body{
     color: white !important;
 }
 .navbar{
-    background-color:rgb(36,154,166)!important
+    background-color:rgb(23, 39, 24)!important
 }
 /*.navbarToScroll{
     position: fixed;
@@ -75,7 +75,7 @@ textarea{
 }
 
 footer{
-    background-color: rgb(36,154,166);
+    background-color: rgb(24, 99, 30);
         height: 10rem;
         display: flex; 
         justify-content:center; 
@@ -93,67 +93,13 @@ footer .iconos{
     align-items: baseline;
 
 }
-
-
-
-
-/*.tooltip{
-    font-weight: normal;
-    color: #ccc;
-    text-decoration: none;
-    position: relative;
-}
-.tooltip:hover{
-    text-decoration: underline;
-}
-.tooltip-box{
-    position: absolute;
-    background-color: aquamarine;
-    line-height: 20xp;
-    z-index: 500;
-    text-align: center;
-    color: #ffffff;
-    font-size: 14px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    left: 0;
-    bottom: :30px;
-
-}
-
-.tooltip-box::after{
-    content: "";
-    display: block;
-    border-top: 20px solid red; 
-    border-left: 20px solid red ;
-    border-right: 20px solid red ;
-    border-bottom: 20px solid red 
-    
-
-}
-
-
-/*.tools{
-    display: grid;
-    grid-template-colums:repeate(auto-fit,minmax(70px,auto));
+.centered-text {
+    display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 50px;
-}
-/*tooltip*/
-/*.skill h3{
-    background-color: :var(white);
+    height: 100%;
     text-align: center;
-    border-radius: 5px;
-    padding:5px 0;
-    font-size: 1.1rem;
-    width:100px;
-    transform: traslate(opx,-100px);
-    transition: transform 0.4S case,transform 0.4s ease;
-
 }
-.knowledge>div:hover h3,
-.tools>div:hover: h3{
-    opacity: 0;
-    transform: translate(opx,-100px);
-}*/
+
+
 
