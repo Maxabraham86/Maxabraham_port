@@ -9,13 +9,17 @@ Color del navbar:rgb(36,154,166)*/
 html{
     scroll-behavior: smooth;
 }
-
-body{
+body {
+    background: linear-gradient(to top, #685d5a, #feb47b); /* De izquierda a derecha */
+    height: 100vh; /* Altura completa de la ventana */
+    margin: 0;
+}
+/* body{
     background-color:#000000 ;
     color: white !important;
-}
+} */
 .navbar{
-    background-color:rgb(23, 39, 24)!important
+    background-color:rgb(49, 80, 51)!important
 }
 /*.navbarToScroll{
     position: fixed;
@@ -43,28 +47,18 @@ section h3{
 #article{
     padding:  10rem;
 }
-/* .card{
-    width: 25rem;
-    max-width: 22rem;
-} */
 
-.card-text{
-    font-family: "Raleway", sans-serif;
-}
-.card-body{
-    background-color:rgb(36,154,166) ;
-}
 
 /*#casilla_mensaje{
     texterea
 }*/
 
-.container2{
+/* .container2{
     max-width: 80%;
     padding-inline-start: 20%;
     margin-top: 4rem;
     margin-bottom: 3rem;
-}
+} */
 /*valores a textarea*/
 textarea{
     width: 100%;
@@ -76,7 +70,7 @@ textarea{
 
 footer{
     background-color: rgb(24, 99, 30);
-        height: 10rem;
+        height: 6rem;
         display: flex; 
         justify-content:center; 
         align-items: center; 
